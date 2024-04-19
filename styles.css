@@ -104,3 +104,32 @@ body {
 #hero input[type='submit']:hover {
     background-color: #ff8c00;
 }
+
+/* features section sytles */
+
+#features {
+    margin: 30px 60px;
+}
+
+.grid {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#features img {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    height: 125px;
+    width: 125px;
+    color: #ff8c00;
+}
+
+#features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
