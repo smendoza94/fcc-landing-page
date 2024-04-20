@@ -138,15 +138,7 @@ body {
 
 #lifestyle {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 30px 60px;
-    overflow: hidden;
-}
-
-#lifestyle img {
-    width: 100%;
-    height: 100%;
-    max-width: 350px;
-    margin: auto 0;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
