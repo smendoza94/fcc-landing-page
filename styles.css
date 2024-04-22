@@ -227,3 +227,32 @@ body {
 .product button:hover {
     background-color: var(--quaternary-color);
 }
+
+/* footer styles */
+
+footer {
+    margin-top: 30px;
+    background-color: var(--quinary-color);
+    padding: 20px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul li {
+    padding: 0 10px;
+    border: 1px solid transparent;
+}
+
+footer ul li:hover {
+    border: 1px solid transparent;
+    padding: 0 10px;
+    border-radius: 0;
+}
+
+a {
+    color: var(--tertiary-color);
+    text-decoration: none;
+}
